@@ -1,4 +1,3 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +8,7 @@
 
   <meta
     name="description"
-    content="Flamma Kingdom is an independent animation studio devoted to ideas worth making."
+    content="Flamma Kingdom is an independent animation studio devoted to ideas worth making. Currently developing Memland."
   >
 
   <style>
@@ -40,11 +39,11 @@
     ------------------------- */
 
     header {
-      min-height: 92vh;
+      min-height: 90vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      padding: 20px 0 70px;
+      padding: 20px 0 60px;
     }
 
     nav {
@@ -60,7 +59,7 @@
     }
 
     .hero {
-      max-width: 1000px;
+      max-width: 950px;
     }
 
     .label {
@@ -71,24 +70,45 @@
     }
 
     h1 {
-      font-size: clamp(58px, 11vw, 150px);
-      line-height: 0.84;
-      letter-spacing: -0.075em;
-      margin: 0 0 50px;
+      font-size: clamp(58px, 12vw, 150px);
+      line-height: 0.85;
+      letter-spacing: -0.07em;
+      margin: 0 0 40px;
       font-weight: 700;
-      max-width: 1000px;
+    }
+
+    h2 {
+      font-size: clamp(40px, 6vw, 72px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+      margin: 0 0 35px;
+    }
+
+    h3 {
+      font-size: 24px;
+      line-height: 1.1;
+      margin: 0 0 12px;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 700px;
     }
 
     .hero-description {
-      font-size: clamp(21px, 2.5vw, 32px);
-      line-height: 1.25;
+      font-size: clamp(22px, 3vw, 34px);
+      line-height: 1.2;
       max-width: 820px;
       margin: 0;
     }
 
+    /* -------------------------
+       BUTTON
+    ------------------------- */
+
     .button {
       display: inline-block;
-      margin-top: 35px;
+      margin-top: 30px;
       padding: 16px 24px;
       border: 1px solid #111;
       color: #111;
@@ -111,40 +131,20 @@
       border-top: 1px solid #111;
     }
 
-    h2 {
-      font-size: clamp(42px, 7vw, 82px);
-      line-height: 0.92;
-      letter-spacing: -0.06em;
-      margin: 0 0 50px;
-      max-width: 950px;
-    }
-
-    h3 {
-      font-size: 24px;
-      line-height: 1.1;
-      margin: 0 0 14px;
-    }
-
-    p {
-      font-size: 20px;
-      max-width: 700px;
-      margin-top: 0;
-    }
-
-    .lead {
-      font-size: clamp(24px, 3vw, 38px);
-      line-height: 1.2;
-      max-width: 850px;
-    }
-
     .grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 70px;
+      gap: 60px;
+    }
+
+    .lead {
+      font-size: clamp(25px, 3vw, 38px);
+      line-height: 1.2;
+      max-width: 800px;
     }
 
     /* -------------------------
-       LISTS
+       LIST
     ------------------------- */
 
     ul {
@@ -155,7 +155,7 @@
 
     li {
       font-size: 20px;
-      padding: 15px 0;
+      padding: 14px 0;
       border-bottom: 1px solid #aaa;
     }
 
@@ -164,42 +164,14 @@
     }
 
     /* -------------------------
-       IDEA
+       MEMLAND
     ------------------------- */
 
-    .idea-statement {
-      font-size: clamp(32px, 5vw, 62px);
-      line-height: 1.02;
-      letter-spacing: -0.04em;
-      max-width: 900px;
-      margin: 0;
-    }
-
-    /* -------------------------
-       PEOPLE
-    ------------------------- */
-
-    .person {
-      border-top: 1px solid #111;
-      padding-top: 20px;
-    }
-
-    .person-role {
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 30px;
-    }
-
-    /* -------------------------
-       PRODUCT
-    ------------------------- */
-
-    .product-name {
-      font-size: clamp(64px, 12vw, 150px);
+    .project-name {
+      font-size: clamp(70px, 14vw, 170px);
       line-height: 0.8;
       letter-spacing: -0.08em;
-      margin: 0 0 45px;
+      margin: 0 0 50px;
     }
 
     .status {
@@ -210,8 +182,9 @@
     }
 
     .status-title {
-      font-size: 14px;
-      letter-spacing: 0.05em;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
     }
 
     .progress {
@@ -227,30 +200,39 @@
     }
 
     /* -------------------------
-       COMMUNITY
+       PEOPLE
     ------------------------- */
 
-    .community-number {
-      font-size: clamp(100px, 18vw, 220px);
-      line-height: 0.75;
-      letter-spacing: -0.08em;
-      margin: 0 0 40px;
+    .person {
+      padding-top: 20px;
+      border-top: 1px solid #111;
+    }
+
+    .person-label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 25px;
     }
 
     /* -------------------------
        STRATEGY
     ------------------------- */
 
+    .strategy {
+      margin-top: 50px;
+    }
+
     .strategy-item {
       display: grid;
-      grid-template-columns: 80px 1fr;
-      gap: 30px;
-      padding: 22px 0;
+      grid-template-columns: 60px 1fr;
+      gap: 20px;
+      padding: 18px 0;
       border-bottom: 1px solid #aaa;
     }
 
     .strategy-number {
-      font-size: 14px;
+      font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
@@ -260,16 +242,31 @@
     }
 
     /* -------------------------
+       SUPPORT
+    ------------------------- */
+
+    .support {
+      padding-bottom: 140px;
+    }
+
+    .support-box {
+      margin-top: 50px;
+      padding: 30px;
+      border: 1px solid #111;
+      max-width: 750px;
+    }
+
+    /* -------------------------
        FOOTER
     ------------------------- */
 
     footer {
       padding: 50px 0;
+      border-top: 1px solid #111;
       font-size: 14px;
       display: flex;
       justify-content: space-between;
       gap: 20px;
-      border-top: 1px solid #111;
     }
 
     footer a {
@@ -288,7 +285,7 @@
       }
 
       header {
-        min-height: 88vh;
+        min-height: 85vh;
         padding: 18px 0 50px;
       }
 
@@ -298,16 +295,11 @@
 
       .grid {
         grid-template-columns: 1fr;
-        gap: 45px;
+        gap: 40px;
       }
 
       h1 {
-        font-size: clamp(56px, 17vw, 100px);
-        margin-bottom: 40px;
-      }
-
-      h2 {
-        font-size: clamp(42px, 13vw, 70px);
+        font-size: clamp(58px, 17vw, 105px);
       }
 
       p {
@@ -318,12 +310,12 @@
         font-size: 25px;
       }
 
-      .product-name {
-        font-size: clamp(70px, 20vw, 130px);
+      .project-name {
+        font-size: clamp(72px, 21vw, 130px);
       }
 
       .strategy-item {
-        grid-template-columns: 50px 1fr;
+        grid-template-columns: 45px 1fr;
         gap: 15px;
       }
 
@@ -347,7 +339,7 @@
       <nav>
         <a href="/">FLAMMA KINGDOM</a>
 
-        <a href="#strategy">STRATEGY</a>
+        <a href="#support">SUPPORT</a>
       </nav>
 
       <div class="hero">
@@ -362,11 +354,11 @@
 
         <p class="hero-description">
           We develop original animated projects and build
-          the worlds, teams and communities around them.
+          the worlds and communities around them.
         </p>
 
-        <a class="button" href="#idea">
-          Explore the studio →
+        <a class="button" href="#memland">
+          Discover Memland →
         </a>
 
       </div>
@@ -375,7 +367,7 @@
 
 
     <!-- =========================
-         01 — IDEA
+         IDEA
     ========================== -->
 
     <section id="idea">
@@ -385,30 +377,28 @@
       </div>
 
       <h2>
-        Start with<br>
-        something worth making.
+        Why we're doing this.
       </h2>
 
       <div class="grid">
 
         <div>
-          <p class="idea-statement">
-            We believe the best projects start with an idea
-            that refuses to leave you alone.
+          <p class="lead">
+            We want to make original animation
+            without waiting for someone else to make it possible.
           </p>
         </div>
 
         <div>
           <p>
-            Flamma Kingdom exists to give those ideas a place
-            to grow — from the first sketch and rough thought
-            to a finished animated world.
+            Flamma Kingdom is our independent animation studio.
+            We are building it around ideas we genuinely care about,
+            starting with our first original series, Memland.
           </p>
 
           <p>
-            We are interested in original stories, unusual
-            characters and worlds that have something of their
-            own to say.
+            For us, the studio is not only about producing animation.
+            It's about creating the conditions to keep making it.
           </p>
         </div>
 
@@ -418,120 +408,16 @@
 
 
     <!-- =========================
-         02 — PRINCIPLES
+         MEMLAND / PRODUCT
     ========================== -->
 
-    <section id="principles">
+    <section id="memland">
 
       <div class="label">
-        02 — Principles
+        02 — Product
       </div>
 
-      <h2>
-        Independent<br>
-        by design.
-      </h2>
-
-      <div class="grid">
-
-        <div>
-          <p>
-            Independence is not only about how we finance
-            a project. It is about creating an environment
-            where the work can remain honest.
-          </p>
-        </div>
-
-        <div>
-
-          <ul>
-            <li>Creative freedom</li>
-            <li>Quality over quantity</li>
-            <li>Long-term thinking</li>
-            <li>Transparency</li>
-            <li>Collaboration</li>
-            <li>Community</li>
-          </ul>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         03 — PEOPLE
-    ========================== -->
-
-    <section id="people">
-
-      <div class="label">
-        03 — People
-      </div>
-
-      <h2>
-        Two people.<br>
-        One studio.
-      </h2>
-
-      <div class="grid">
-
-        <div class="person">
-
-          <div class="person-role">
-            Creative
-          </div>
-
-          <h3>
-            The work starts here.
-          </h3>
-
-          <p>
-            Direction, visual development, animation and
-            the endless process of turning ideas into images.
-          </p>
-
-        </div>
-
-        <div class="person">
-
-          <div class="person-role">
-            Creative
-          </div>
-
-          <h3>
-            The work continues here.
-          </h3>
-
-          <p>
-            Story, production, world building and everything
-            that turns a creative idea into a living project.
-          </p>
-
-        </div>
-
-      </div>
-
-      <p style="margin-top: 70px;">
-        We are building Flamma Kingdom together — as a
-        creative practice, a studio and a long-term project.
-      </p>
-
-    </section>
-
-
-    <!-- =========================
-         04 — PRODUCT
-    ========================== -->
-
-    <section id="product">
-
-      <div class="label">
-        04 — Product
-      </div>
-
-      <div class="product-name">
+      <div class="project-name">
         Memland
       </div>
 
@@ -540,17 +426,18 @@
         <div>
 
           <p class="lead">
-            Our first original animated project.
-          </p>
-
-          <p>
-            Memland is an independent animated series
+            An independent animated series
             currently in development.
           </p>
 
           <p>
-            We are creating its characters, stories, visual
-            language and world from the ground up.
+            Memland is our first major project.
+            We are creating the world, characters, stories
+            and visual language from the ground up.
+          </p>
+
+          <p>
+            This is where we're putting our studio into practice.
           </p>
 
         </div>
@@ -558,7 +445,7 @@
         <div>
 
           <h3>
-            Currently developing
+            What we're doing now
           </h3>
 
           <ul>
@@ -576,7 +463,7 @@
       <div class="status">
 
         <div class="status-title">
-          MEMLAND — DEVELOPMENT
+          Memland — Development
         </div>
 
         <div class="progress">
@@ -589,11 +476,107 @@
 
       </div>
 
+      <a class="button" href="#support">
+        Support Memland →
+      </a>
+
     </section>
 
 
     <!-- =========================
-         05 — COMMUNITY
+         PEOPLE
+    ========================== -->
+
+    <section id="people">
+
+      <div class="label">
+        03 — People
+      </div>
+
+      <h2>
+        Two people.<br>
+        One studio.
+      </h2>
+
+      <div class="grid">
+
+        <div class="person">
+
+          <div class="person-label">
+            The founders
+          </div>
+
+          <p class="lead">
+            We are a creative couple building
+            Flamma Kingdom together.
+          </p>
+
+        </div>
+
+        <div>
+
+          <p>
+            We both come from the digital and creative world,
+            and decided to put our experience into building
+            something of our own.
+          </p>
+
+          <p>
+            Right now we're doing most of the work ourselves —
+            from creative development and animation to production,
+            communication and everything in between.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         PRINCIPLES
+    ========================== -->
+
+    <section id="principles">
+
+      <div class="label">
+        04 — Principles
+      </div>
+
+      <h2>
+        How we work.
+      </h2>
+
+      <div class="grid">
+
+        <div>
+          <p class="lead">
+            We want to stay small, independent
+            and focused on the work.
+          </p>
+        </div>
+
+        <div>
+
+          <ul>
+            <li>Independence</li>
+            <li>Creative freedom</li>
+            <li>Quality</li>
+            <li>Transparency</li>
+            <li>Collaboration</li>
+            <li>Community</li>
+          </ul>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         COMMUNITY
     ========================== -->
 
     <section id="community">
@@ -603,33 +586,37 @@
       </div>
 
       <h2>
-        The work is<br>
-        better together.
+        Come along.
       </h2>
 
       <div class="grid">
 
         <div>
+
           <p class="lead">
-            We don't want to build Flamma Kingdom
-            behind a closed door.
+            We want to build the project
+            together with the people who care about it.
           </p>
+
         </div>
 
         <div>
+
           <p>
-            We're sharing the process as we go — ideas,
-            experiments, progress, mistakes and discoveries.
+            We're sharing the development of Memland
+            as we go — the process, experiments,
+            progress and things we're figuring out.
           </p>
 
           <p>
-            The community around the work is part of
-            the studio we are building.
+            Follow the project and become part
+            of the community around it.
           </p>
 
           <a class="button" href="#">
             Follow the project →
           </a>
+
         </div>
 
       </div>
@@ -638,7 +625,7 @@
 
 
     <!-- =========================
-         06 — STRATEGY
+         STRATEGY
     ========================== -->
 
     <section id="strategy">
@@ -648,16 +635,15 @@
       </div>
 
       <h2>
-        Build slowly.<br>
-        Build for the long term.
+        Build the studio<br>
+        one project at a time.
       </h2>
 
       <p class="lead">
-        We are not trying to build a studio overnight.
-        We are building the foundations for one.
+        Memland is the beginning.
       </p>
 
-      <div style="margin-top: 70px;">
+      <div class="strategy">
 
         <div class="strategy-item">
 
@@ -666,7 +652,7 @@
           </div>
 
           <p>
-            Create original projects with a clear creative identity.
+            Develop original animated projects.
           </p>
 
         </div>
@@ -678,7 +664,7 @@
           </div>
 
           <p>
-            Build a sustainable independent production practice.
+            Build an audience around the work.
           </p>
 
         </div>
@@ -690,7 +676,7 @@
           </div>
 
           <p>
-            Grow an audience alongside the projects, not after them.
+            Create a sustainable independent studio.
           </p>
 
         </div>
@@ -702,11 +688,49 @@
           </div>
 
           <p>
-            Turn one successful project into the foundation
-            for the next one.
+            Use each project as a foundation for the next.
           </p>
 
         </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SUPPORT
+    ========================== -->
+
+    <section id="support" class="support">
+
+      <div class="label">
+        07 — Support
+      </div>
+
+      <h2>
+        Help us make Memland.
+      </h2>
+
+      <div class="support-box">
+
+        <p class="lead">
+          We're currently developing the project independently.
+        </p>
+
+        <p>
+          Community support will help us dedicate more time
+          and resources to production and keep building
+          Flamma Kingdom.
+        </p>
+
+        <p>
+          Support options will appear here soon.
+        </p>
+
+        <a class="button" href="#">
+          Support Memland →
+        </a>
 
       </div>
 
