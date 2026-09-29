@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Flamma Kingdom — Independent Animation Studio</title>
+  <title>Flamma Kingdom — независимая анимационная студия</title>
 
   <meta
     name="description"
-    content="Flamma Kingdom is an independent animation studio devoted to ideas worth making. Currently developing Memland."
+    content="Flamma Kingdom — независимая анимационная студия. Мы создаём оригинальные анимационные проекты и развиваем сообщества вокруг них."
   >
 
   <style>
@@ -34,10 +34,6 @@
       padding: 24px;
     }
 
-    /* -------------------------
-       HEADER
-    ------------------------- */
-
     header {
       min-height: 90vh;
       display: flex;
@@ -56,6 +52,16 @@
     nav a {
       color: inherit;
       text-decoration: none;
+    }
+
+    .language {
+      display: flex;
+      gap: 12px;
+    }
+
+    .language .active {
+      text-decoration: underline;
+      text-underline-offset: 4px;
     }
 
     .hero {
@@ -102,10 +108,6 @@
       margin: 0;
     }
 
-    /* -------------------------
-       BUTTON
-    ------------------------- */
-
     .button {
       display: inline-block;
       margin-top: 30px;
@@ -121,10 +123,6 @@
       background: #111;
       color: #f5f5f0;
     }
-
-    /* -------------------------
-       SECTIONS
-    ------------------------- */
 
     section {
       padding: 120px 0;
@@ -143,10 +141,6 @@
       max-width: 800px;
     }
 
-    /* -------------------------
-       LIST
-    ------------------------- */
-
     ul {
       padding: 0;
       margin: 0;
@@ -162,10 +156,6 @@
     li:first-child {
       border-top: 1px solid #aaa;
     }
-
-    /* -------------------------
-       MEMLAND
-    ------------------------- */
 
     .project-name {
       font-size: clamp(70px, 14vw, 170px);
@@ -199,10 +189,6 @@
       background: #111;
     }
 
-    /* -------------------------
-       PEOPLE
-    ------------------------- */
-
     .person {
       padding-top: 20px;
       border-top: 1px solid #111;
@@ -214,10 +200,6 @@
       letter-spacing: 0.08em;
       margin-bottom: 25px;
     }
-
-    /* -------------------------
-       STRATEGY
-    ------------------------- */
 
     .strategy {
       margin-top: 50px;
@@ -241,10 +223,6 @@
       margin: 0;
     }
 
-    /* -------------------------
-       SUPPORT
-    ------------------------- */
-
     .support {
       padding-bottom: 140px;
     }
@@ -255,10 +233,6 @@
       border: 1px solid #111;
       max-width: 750px;
     }
-
-    /* -------------------------
-       FOOTER
-    ------------------------- */
 
     footer {
       padding: 50px 0;
@@ -274,12 +248,7 @@
       text-decoration: none;
     }
 
-    /* -------------------------
-       MOBILE
-    ------------------------- */
-
     @media (max-width: 700px) {
-
       main {
         padding: 18px;
       }
@@ -328,440 +297,418 @@
 
 <body>
 
-  <main>
+<main>
 
-    <!-- =========================
-         HERO
-    ========================== -->
+  <header>
 
-    <header>
+    <nav>
+      <a href="index.html">FLAMMA KINGDOM</a>
 
-      <nav>
-        <a href="/">FLAMMA KINGDOM</a>
-
-        <a href="#support">SUPPORT</a>
-      </nav>
-
-      <div class="hero">
-
-        <div class="label">
-          Independent animation studio
-        </div>
-
-        <h1>
-          Ideas worth making.
-        </h1>
-
-        <p class="hero-description">
-          We develop original animated projects and build
-          the worlds and communities around them.
-        </p>
-
-        <a class="button" href="#memland">
-          Discover Memland →
-        </a>
-
+      <div class="language">
+        <a href="index.html" class="active">RU</a>
+        <span>/</span>
+        <a href="en.html">EN</a>
       </div>
+    </nav>
 
-    </header>
-
-
-    <!-- =========================
-         IDEA
-    ========================== -->
-
-    <section id="idea">
+    <div class="hero">
 
       <div class="label">
-        01 — Idea
+        Независимая анимационная студия
       </div>
 
-      <h2>
-        Why we're doing this.
-      </h2>
-
-      <div class="grid">
-
-        <div>
-          <p class="lead">
-            We want to make original animation
-            without waiting for someone else to make it possible.
-          </p>
-        </div>
-
-        <div>
-          <p>
-            Flamma Kingdom is our independent animation studio.
-            We are building it around ideas we genuinely care about,
-            starting with our first original series, Memland.
-          </p>
-
-          <p>
-            For us, the studio is not only about producing animation.
-            It's about creating the conditions to keep making it.
-          </p>
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         MEMLAND / PRODUCT
-    ========================== -->
-
-    <section id="memland">
-
-      <div class="label">
-        02 — Product
-      </div>
-
-      <div class="project-name">
-        Memland
-      </div>
-
-      <div class="grid">
-
-        <div>
-
-          <p class="lead">
-            An independent animated series
-            currently in development.
-          </p>
-
-          <p>
-            Memland is our first major project.
-            We are creating the world, characters, stories
-            and visual language from the ground up.
-          </p>
-
-          <p>
-            This is where we're putting our studio into practice.
-          </p>
-
-        </div>
-
-        <div>
-
-          <h3>
-            What we're doing now
-          </h3>
-
-          <ul>
-            <li>World building</li>
-            <li>Character development</li>
-            <li>Story development</li>
-            <li>Visual development</li>
-            <li>Animation tests</li>
-          </ul>
-
-        </div>
-
-      </div>
-
-      <div class="status">
-
-        <div class="status-title">
-          Memland — Development
-        </div>
-
-        <div class="progress">
-          <div class="progress-bar"></div>
-        </div>
-
-        <p>
-          Development in progress.
-        </p>
-
-      </div>
-
-      <a class="button" href="#support">
-        Support Memland →
-      </a>
-
-    </section>
-
-
-    <!-- =========================
-         PEOPLE
-    ========================== -->
-
-    <section id="people">
-
-      <div class="label">
-        03 — People
-      </div>
-
-      <h2>
-        Two people.<br>
-        One studio.
-      </h2>
-
-      <div class="grid">
-
-        <div class="person">
-
-          <div class="person-label">
-            The founders
-          </div>
-
-          <p class="lead">
-            We are a creative couple building
-            Flamma Kingdom together.
-          </p>
-
-        </div>
-
-        <div>
-
-          <p>
-            We both come from the digital and creative world,
-            and decided to put our experience into building
-            something of our own.
-          </p>
-
-          <p>
-            Right now we're doing most of the work ourselves —
-            from creative development and animation to production,
-            communication and everything in between.
-          </p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         PRINCIPLES
-    ========================== -->
-
-    <section id="principles">
-
-      <div class="label">
-        04 — Principles
-      </div>
-
-      <h2>
-        How we work.
-      </h2>
-
-      <div class="grid">
-
-        <div>
-          <p class="lead">
-            We want to stay small, independent
-            and focused on the work.
-          </p>
-        </div>
-
-        <div>
-
-          <ul>
-            <li>Independence</li>
-            <li>Creative freedom</li>
-            <li>Quality</li>
-            <li>Transparency</li>
-            <li>Collaboration</li>
-            <li>Community</li>
-          </ul>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         COMMUNITY
-    ========================== -->
-
-    <section id="community">
-
-      <div class="label">
-        05 — Community
-      </div>
-
-      <h2>
-        Come along.
-      </h2>
-
-      <div class="grid">
-
-        <div>
-
-          <p class="lead">
-            We want to build the project
-            together with the people who care about it.
-          </p>
-
-        </div>
-
-        <div>
-
-          <p>
-            We're sharing the development of Memland
-            as we go — the process, experiments,
-            progress and things we're figuring out.
-          </p>
-
-          <p>
-            Follow the project and become part
-            of the community around it.
-          </p>
-
-          <a class="button" href="#">
-            Follow the project →
-          </a>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         STRATEGY
-    ========================== -->
-
-    <section id="strategy">
-
-      <div class="label">
-        06 — Strategy
-      </div>
-
-      <h2>
-        Build the studio<br>
-        one project at a time.
-      </h2>
-
-      <p class="lead">
-        Memland is the beginning.
+      <h1>
+        Ideas worth making.
+      </h1>
+
+      <p class="hero-description">
+        Мы создаём оригинальные анимационные проекты
+        и строим вокруг них миры и сообщества.
       </p>
 
-      <div class="strategy">
+      <a class="button" href="#memland">
+        Узнать о Memland →
+      </a>
 
-        <div class="strategy-item">
+    </div>
 
-          <div class="strategy-number">
-            01
-          </div>
+  </header>
 
-          <p>
-            Develop original animated projects.
-          </p>
 
-        </div>
+  <section id="idea">
 
-        <div class="strategy-item">
+    <div class="label">
+      01 — Идея
+    </div>
 
-          <div class="strategy-number">
-            02
-          </div>
+    <h2>
+      Зачем мы это делаем.
+    </h2>
 
-          <p>
-            Build an audience around the work.
-          </p>
+    <div class="grid">
 
-        </div>
+      <div>
+        <p class="lead">
+          Мы хотим создавать оригинальную анимацию,
+          не дожидаясь, пока кто-то другой даст
+          нам возможность это сделать.
+        </p>
+      </div>
 
-        <div class="strategy-item">
+      <div>
+        <p>
+          Flamma Kingdom — наша независимая
+          анимационная студия. Мы строим её вокруг
+          идей, которые действительно хотим воплотить.
+        </p>
 
-          <div class="strategy-number">
-            03
-          </div>
-
-          <p>
-            Create a sustainable independent studio.
-          </p>
-
-        </div>
-
-        <div class="strategy-item">
-
-          <div class="strategy-number">
-            04
-          </div>
-
-          <p>
-            Use each project as a foundation for the next.
-          </p>
-
-        </div>
+        <p>
+          Первый большой проект студии —
+          анимационный сериал Memland.
+        </p>
 
       </div>
 
-    </section>
+    </div>
+
+  </section>
 
 
-    <!-- =========================
-         SUPPORT
-    ========================== -->
+  <section id="memland">
 
-    <section id="support" class="support">
+    <div class="label">
+      02 — Продукт
+    </div>
 
-      <div class="label">
-        07 — Support
-      </div>
+    <div class="project-name">
+      Memland
+    </div>
 
-      <h2>
-        Help us make Memland.
-      </h2>
+    <div class="grid">
 
-      <div class="support-box">
+      <div>
 
         <p class="lead">
-          We're currently developing the project independently.
+          Независимый анимационный сериал
+          в разработке.
         </p>
 
         <p>
-          Community support will help us dedicate more time
-          and resources to production and keep building
-          Flamma Kingdom.
+          Memland — наш первый большой оригинальный проект.
+          Мы создаём его мир, персонажей, истории и
+          визуальный язык с нуля.
         </p>
 
         <p>
-          Support options will appear here soon.
+          Именно на этом проекте мы сейчас строим
+          и развиваем студию.
+        </p>
+
+      </div>
+
+      <div>
+
+        <h3>
+          Что мы делаем сейчас
+        </h3>
+
+        <ul>
+          <li>Создаём мир</li>
+          <li>Разрабатываем персонажей</li>
+          <li>Пишем истории</li>
+          <li>Развиваем визуальный стиль</li>
+          <li>Делаем анимационные тесты</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="status">
+
+      <div class="status-title">
+        Memland — разработка
+      </div>
+
+      <div class="progress">
+        <div class="progress-bar"></div>
+      </div>
+
+      <p>
+        Проект находится в разработке.
+      </p>
+
+    </div>
+
+    <a class="button" href="#support">
+      Поддержать Memland →
+    </a>
+
+  </section>
+
+
+  <section id="people">
+
+    <div class="label">
+      03 — Люди
+    </div>
+
+    <h2>
+      Два человека.<br>
+      Одна студия.
+    </h2>
+
+    <div class="grid">
+
+      <div class="person">
+
+        <div class="person-label">
+          Основатели
+        </div>
+
+        <p class="lead">
+          Мы семейная пара, которая решила
+          построить собственную анимационную студию.
+        </p>
+
+      </div>
+
+      <div>
+
+        <p>
+          Мы оба работаем в digital и творческих индустриях
+          и собираем Flamma Kingdom с нуля.
+        </p>
+
+        <p>
+          Сейчас мы сами занимаемся всем —
+          от разработки проекта и анимации
+          до продюсирования, коммуникации
+          и развития студии.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="principles">
+
+    <div class="label">
+      04 — Принципы
+    </div>
+
+    <h2>
+      Как мы работаем.
+    </h2>
+
+    <div class="grid">
+
+      <div>
+
+        <p class="lead">
+          Мы хотим оставаться небольшими,
+          независимыми и сфокусированными
+          на работе.
+        </p>
+
+      </div>
+
+      <div>
+
+        <ul>
+          <li>Независимость</li>
+          <li>Творческая свобода</li>
+          <li>Качество</li>
+          <li>Прозрачность</li>
+          <li>Сотрудничество</li>
+          <li>Сообщество</li>
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="community">
+
+    <div class="label">
+      05 — Сообщество
+    </div>
+
+    <h2>
+      Давайте делать это вместе.
+    </h2>
+
+    <div class="grid">
+
+      <div>
+
+        <p class="lead">
+          Мы хотим строить проект вместе
+          с людьми, которым он интересен.
+        </p>
+
+      </div>
+
+      <div>
+
+        <p>
+          Мы рассказываем о разработке Memland
+          по ходу работы — показываем процесс,
+          эксперименты, прогресс и то,
+          что нам предстоит решить.
+        </p>
+
+        <p>
+          Следите за проектом и присоединяйтесь
+          к сообществу вокруг него.
         </p>
 
         <a class="button" href="#">
-          Support Memland →
+          Следить за проектом →
         </a>
 
       </div>
 
-    </section>
+    </div>
+
+  </section>
 
 
-    <!-- =========================
-         FOOTER
-    ========================== -->
+  <section id="strategy">
 
-    <footer>
+    <div class="label">
+      06 — Стратегия
+    </div>
 
-      <div>
-        FLAMMA KINGDOM
+    <h2>
+      Строим студию<br>
+      проект за проектом.
+    </h2>
+
+    <p class="lead">
+      Memland — это начало.
+    </p>
+
+    <div class="strategy">
+
+      <div class="strategy-item">
+
+        <div class="strategy-number">
+          01
+        </div>
+
+        <p>
+          Создавать оригинальные анимационные проекты.
+        </p>
+
       </div>
 
-      <div>
-        <a href="#">Instagram</a>
-        &nbsp; / &nbsp;
-        <a href="#">Telegram</a>
-        &nbsp; / &nbsp;
-        <a href="#">YouTube</a>
+      <div class="strategy-item">
+
+        <div class="strategy-number">
+          02
+        </div>
+
+        <p>
+          Строить аудиторию вокруг проектов.
+        </p>
+
       </div>
 
-      <div>
-        © 2026
+      <div class="strategy-item">
+
+        <div class="strategy-number">
+          03
+        </div>
+
+        <p>
+          Создать устойчивую независимую студию.
+        </p>
+
       </div>
 
-    </footer>
+      <div class="strategy-item">
 
-  </main>
+        <div class="strategy-number">
+          04
+        </div>
+
+        <p>
+          Использовать каждый проект как основу
+          для следующего.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id="support" class="support">
+
+    <div class="label">
+      07 — Поддержка
+    </div>
+
+    <h2>
+      Помогите нам сделать Memland.
+    </h2>
+
+    <div class="support-box">
+
+      <p class="lead">
+        Сейчас мы самостоятельно
+        финансируем разработку проекта.
+      </p>
+
+      <p>
+        Поддержка сообщества позволит нам
+        посвящать проекту больше времени
+        и ресурсов и продолжать развивать
+        Flamma Kingdom.
+      </p>
+
+      <p>
+        Варианты поддержки появятся здесь скоро.
+      </p>
+
+      <a class="button" href="#">
+        Поддержать Memland →
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+
+    <div>
+      FLAMMA KINGDOM
+    </div>
+
+    <div>
+      <a href="#">Instagram</a>
+      &nbsp; / &nbsp;
+      <a href="#">Telegram</a>
+      &nbsp; / &nbsp;
+      <a href="#">YouTube</a>
+    </div>
+
+    <div>
+      © 2026
+    </div>
+
+  </footer>
+
+</main>
 
 </body>
 </html>
