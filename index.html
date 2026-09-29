@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Flamma Kingdom — Independent Animation Studio</title>
+
+  <meta
+    name="description"
+    content="Flamma Kingdom is an independent animation studio developing Memland and building a community around independent animation."
+  >
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: #f5f5f0;
+      color: #111;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.5;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      min-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 20px 0 60px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    nav a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .hero {
+      max-width: 900px;
+    }
+
+    h1 {
+      font-size: clamp(56px, 12vw, 150px);
+      line-height: 0.85;
+      letter-spacing: -0.07em;
+      margin: 0 0 40px;
+      font-weight: 700;
+    }
+
+    h2 {
+      font-size: clamp(36px, 6vw, 72px);
+      line-height: 0.95;
+      letter-spacing: -0.05em;
+      margin: 0 0 30px;
+    }
+
+    h3 {
+      font-size: 24px;
+      margin: 0 0 12px;
+    }
+
+    p {
+      font-size: 20px;
+      max-width: 700px;
+    }
+
+    .hero p {
+      font-size: clamp(22px, 3vw, 36px);
+      max-width: 800px;
+    }
+
+    section {
+      padding: 120px 0;
+      border-top: 1px solid #111;
+    }
+
+    .label {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 30px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 60px;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+
+    li {
+      font-size: 20px;
+      padding: 14px 0;
+      border-bottom: 1px solid #aaa;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 16px 24px;
+      border: 1px solid #111;
+      color: #111;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .button:hover {
+      background: #111;
+      color: #f5f5f0;
+    }
+
+    .status {
+      margin-top: 50px;
+      padding: 24px;
+      border: 1px solid #111;
+      max-width: 700px;
+    }
+
+    .progress {
+      height: 12px;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    .progress-bar {
+      width: 35%;
+      height: 100%;
+      background: #111;
+    }
+
+    footer {
+      padding: 50px 0;
+      font-size: 14px;
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    @media (max-width: 700px) {
+      main {
+        padding: 18px;
+      }
+
+      header {
+        min-height: 80vh;
+      }
+
+      section {
+        padding: 80px 0;
+      }
+
+      .grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      footer {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main>
+
+    <!-- HERO -->
+
+    <header>
+
+      <nav>
+        <a href="/">FLAMMA KINGDOM</a>
+
+        <a href="#support">SUPPORT</a>
+      </nav>
+
+      <div class="hero">
+
+        <div class="label">
+          Independent animation studio
+        </div>
+
+        <h1>
+          We make worlds.
+        </h1>
+
+        <p>
+          Flamma Kingdom is an independent animation studio
+          developing original animated projects and building
+          a community around them.
+        </p>
+
+        <a class="button" href="#memland">
+          Discover Memland →
+        </a>
+
+      </div>
+
+    </header>
+
+
+    <!-- MEMLAND -->
+
+    <section id="memland">
+
+      <div class="label">
+        01 — Current project
+      </div>
+
+      <h2>
+        Memland
+      </h2>
+
+      <div class="grid">
+
+        <div>
+          <p>
+            Memland is an independent animated series
+            currently in development.
+          </p>
+
+          <p>
+            We are creating the world, characters,
+            stories and visual language from the ground up.
+          </p>
+        </div>
+
+        <div>
+          <h3>What we're doing now</h3>
+
+          <ul>
+            <li>World building</li>
+            <li>Character development</li>
+            <li>Story development</li>
+            <li>Visual development</li>
+            <li>Animation tests</li>
+            <li>Community building</li>
+          </ul>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section>
+
+      <div class="label">
+        02 — Who we are
+      </div>
+
+      <h2>
+        Two people.<br>
+        One studio.
+      </h2>
+
+      <div class="grid">
+
+        <div>
+          <p>
+            We are a creative couple building an independent
+            animation studio from scratch.
+          </p>
+        </div>
+
+        <div>
+          <p>
+            Instead of waiting for someone to give us permission
+            to make the projects we believe in, we're building
+            the environment to make them ourselves.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PRINCIPLES -->
+
+    <section>
+
+      <div class="label">
+        03 — How we work
+      </div>
+
+      <h2>
+        Independent<br>
+        by design.
+      </h2>
+
+      <div class="grid">
+
+        <div>
+          <ul>
+            <li>Independence</li>
+            <li>Quality</li>
+            <li>Transparency</li>
+          </ul>
+        </div>
+
+        <div>
+          <ul>
+            <li>Creative freedom</li>
+            <li>Collaboration</li>
+            <li>Community</li>
+          </ul>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- PROGRESS -->
+
+    <section>
+
+      <div class="label">
+        04 — Production
+      </div>
+
+      <h2>
+        Building in public.
+      </h2>
+
+      <p>
+        We want to share the process of creating Memland —
+        not only the finished result.
+      </p>
+
+      <div class="status">
+
+        <strong>
+          MEMLAND — DEVELOPMENT
+        </strong>
+
+        <div class="progress">
+          <div class="progress-bar"></div>
+        </div>
+
+        <p>
+          Development in progress.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- COMMUNITY -->
+
+    <section>
+
+      <div class="label">
+        05 — Community
+      </div>
+
+      <h2>
+        Come along.
+      </h2>
+
+      <p>
+        Follow the development, see what we're making,
+        and become part of the community around the project.
+      </p>
+
+      <a class="button" href="#">
+        Follow the project →
+      </a>
+
+    </section>
+
+
+    <!-- SUPPORT -->
+
+    <section id="support">
+
+      <div class="label">
+        06 — Support
+      </div>
+
+      <h2>
+        Help us make Memland.
+      </h2>
+
+      <p>
+        We are currently developing the project independently.
+        Community support will help us dedicate more time
+        and resources to production.
+      </p>
+
+      <p>
+        Support options will appear here soon.
+      </p>
+
+      <a class="button" href="#">
+        Support Memland →
+      </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+      <div>
+        FLAMMA KINGDOM
+      </div>
+
+      <div>
+        <a href="#">Instagram</a>
+        &nbsp; / &nbsp;
+        <a href="#">Telegram</a>
+        &nbsp; / &nbsp;
+        <a href="#">YouTube</a>
+      </div>
+
+      <div>
+        © 2026
+      </div>
+
+    </footer>
+
+  </main>
+
+</body>
+</html>
